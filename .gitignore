@@ -16,7 +16,7 @@ jds/*
 !jds/.gitkeep
 
 # User config
-config/profile.yml
+!config/profile.yml
 portals.yml
 
 # Generated
@@ -32,3 +32,5 @@ node_modules/
 .claude/settings.local.json
 .claude/memory/
 career-dashboard
+
+.idea

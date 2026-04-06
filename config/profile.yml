@@ -1,0 +1,66 @@
+# Career-Ops Profile Configuration
+# Copy this file to config/profile.yml and fill in your details.
+# This is the single source of truth for your personal data across all modes.
+
+candidate:
+  full_name: "Ike Maldonado"
+  email: "maldonadoike@gmail.com"
+  phone: "+1-415-760-7438"
+  location: "Pleasanton, CA"
+  linkedin: "linkedin.com/in/ike-maldonado"
+  portfolio_url: "https://resume.worktestlink.com"
+  github: "github.com/ike5"
+
+target_roles:
+  # Your North Star roles — what you're optimizing for
+  primary:
+    - "Forward Deployed Software Engineer"
+    - "AI/ML Engineer"
+  # Archetypes help the evaluation system score fit
+  archetypes:
+    - name: "AI/ML Engineer"
+      level: "Mid/Staff"
+      fit: "primary"        # primary = dream role, secondary = good fit, adjacent = stretch
+    - name: "Software Engineer"
+      level: "Junior"
+      fit: "secondary"
+    - name: "Solutions Architect"
+      level: "Junior-Mid"
+      fit: "adjacent"
+
+narrative:
+  # Your professional headline (1 line)
+  headline: "Tools Engineer now AI tools builder"
+  # Your exit story — what makes you unique
+  exit_story: "Built powerful game developer tools for tracking Play tester data. Now focused on applying at scale."
+  # Your top 3-5 superpowers
+  superpowers:
+    - "End-to-end software product development"
+    - "Fast prototyping"
+    - "Cross-functional communication"
+  # Proof points — projects, articles, case studies with measurable impact
+  proof_points:
+    - name: "InstaTicket"
+      url: "https://ticket.codebylevel.com"
+      hero_metric: "The token-based ticket intake system"
+    - name: "Chat App"
+      url: "https://read.codebylevel.com"
+      hero_metric: "Learn Chinese Logographs"
+  # Optional: dashboard/demo URL with credentials
+  # dashboard:
+  #   url: "https://janesmith.dev/demo"
+  #   password: "demo-2026"
+
+compensation:
+  target_range: "$90K-150K"     # Your target total comp
+  currency: "USD"
+  minimum: "$100K"               # Walk-away number
+  location_flexibility: "Fully remote preferred"
+
+location:
+  country: "United States"
+  city: "San Francisco"
+  timezone: "PST"
+  visa_status: "No sponsorship needed"
+  # For remote roles outside your country:
+  # onsite_availability: "1 week/month in any city"
